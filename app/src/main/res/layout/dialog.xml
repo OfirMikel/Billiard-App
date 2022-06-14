@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350sp"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20sp"
+    android:paddingTop="5sp"
+    android:layout_gravity="center"
+    android:background="@drawable/round_corner"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:id="@+id/headlineDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fonts"
+        android:text="@string/headlinedialog"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tableNumStatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/fonts"
+        android:text="מספר שולחן: "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/headlineDialog" />
+
+
+    <TextView
+        android:id="@+id/tableNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fonts"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tableNumStatic"
+        app:layout_constraintEnd_toStartOf="@+id/tableNumStatic"
+        app:layout_constraintTop_toTopOf="@+id/tableNumStatic" />
+
+    <TextView
+        android:id="@+id/timeOfStartStatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/fonts"
+        android:text="זמן פתיחת השולחן: "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/tableNumStatic" />
+
+    <TextView
+        android:id="@+id/timeOfStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fonts"
+        android:text="00:00:00"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/timeOfStartStatic"
+        app:layout_constraintEnd_toStartOf="@+id/timeOfStartStatic"
+        app:layout_constraintTop_toTopOf="@+id/timeOfStartStatic" />
+
+    <TextView
+        android:id="@+id/timeOfFinishStatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/fonts"
+        android:text="זמן סיום אחרון: "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/timeOfStartStatic" />
+
+
+    <TextView
+        android:id="@+id/timeOfFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fonts"
+        android:text="00:00:00"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/timeOfFinishStatic"
+        app:layout_constraintEnd_toStartOf="@+id/timeOfFinishStatic"
+        app:layout_constraintTop_toTopOf="@+id/timeOfFinishStatic" />
+
+
+    <TextView
+        android:id="@+id/tableStatusStatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/fonts"
+        android:text="מצב השולחן: "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/timeOfFinishStatic" />
+
+    <TextView
+        android:id="@+id/tableStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fonts"
+        android:text="שולחן פנוי"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tableStatusStatic"
+        app:layout_constraintEnd_toStartOf="@+id/tableStatusStatic"
+        app:layout_constraintTop_toTopOf="@+id/tableStatusStatic" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.90" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

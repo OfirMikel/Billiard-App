@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138267261472",
+    "project_id": "fratelo-5ae67",
+    "storage_bucket": "fratelo-5ae67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138267261472:android:5ff81a0aca0baff7529a45",
+        "android_client_info": {
+          "package_name": "com.example.fratelo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138267261472-dni58l4q29k42ou7atm213giolob73of.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJMls6OEsaUT9BaOs_MDR6qKrFAQrNvhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138267261472-dni58l4q29k42ou7atm213giolob73of.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminUse"
+    tools:ignore="ContentDescription">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/fonts"
+        android:text="@string/headline"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/table_2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/guideline4" />
+
+    <ImageView
+        android:id="@+id/table_1"
+        android:layout_width="80sp"
+        android:layout_height="44sp"
+        android:rotation="90"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintStart_toEndOf="@+id/table_2"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+    <ImageView
+        android:id="@+id/play_table_1"
+        android:layout_width="26sp"
+        android:layout_height="26sp"
+        android:src="@drawable/icon_x"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/table_1"
+        app:layout_constraintEnd_toEndOf="@+id/table_1"
+        app:layout_constraintStart_toStartOf="@+id/table_1"
+        app:layout_constraintTop_toTopOf="@+id/table_1" />
+
+
+    <ImageView
+        android:id="@+id/table_2"
+        android:layout_width="80sp"
+        android:layout_height="44sp"
+        android:rotation="90"
+        android:src="@drawable/two"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintStart_toEndOf="@+id/table_3"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+    <ImageView
+        android:id="@+id/table_3"
+        android:layout_width="80sp"
+        android:layout_height="44sp"
+        android:rotation="90"
+        android:src="@drawable/three"
+        app:layout_constraintBottom_toBottomOf="@+id/table_4"
+        app:layout_constraintStart_toEndOf="@+id/table_4"
+        app:layout_constraintTop_toTopOf="@+id/table_4" />
+
+    <ImageView
+        android:id="@+id/table_4"
+        android:layout_width="80sp"
+        android:layout_height="44sp"
+        android:layout_marginStart="36dp"
+        android:rotation="90"
+        android:src="@drawable/four"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+    <ImageView
+        android:id="@+id/play_table_2"
+        android:layout_width="26sp"
+        android:layout_height="26sp"
+        android:src="@drawable/icon_x"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/table_2"
+        app:layout_constraintEnd_toEndOf="@+id/table_2"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/table_2"
+        app:layout_constraintTop_toTopOf="@+id/table_2"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <ImageView
+        android:id="@+id/play_table_3"
+        android:layout_width="26sp"
+        android:layout_height="26sp"
+        android:src="@drawable/icon_x"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/table_3"
+        app:layout_constraintEnd_toEndOf="@+id/table_3"
+        app:layout_constraintStart_toStartOf="@+id/table_3"
+        app:layout_constraintTop_toTopOf="@+id/table_3" />
+
+    <ImageView
+        android:id="@+id/play_table_4"
+        android:layout_width="26sp"
+        android:layout_height="26sp"
+        android:src="@drawable/icon_x"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/table_4"
+        app:layout_constraintEnd_toEndOf="@+id/table_4"
+        app:layout_constraintStart_toStartOf="@+id/table_4"
+        app:layout_constraintTop_toTopOf="@+id/table_4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/futureReservations"
+        android:layout_width="match_parent"
+        android:layout_height="524dp"
+        android:layout_marginHorizontal="2sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/fonts"
+        android:text="הזמנות עתידיות"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

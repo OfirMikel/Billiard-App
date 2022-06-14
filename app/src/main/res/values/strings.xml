@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fratelo</string>
+    <string name="headline"><u>מצב השולחנות</u></string>
+    <string name="headlinedialog"><u>פרטי השולחן</u></string>
+    <string name="headlinedialogadd"><u>הזמנת שולחן</u></string>
+    <string name="availableTable"><u>שולחנות פנויים</u></string>
+    <string name="addToTable"><u>צרף לשולחן</u></string>
+
+
+</resources>
