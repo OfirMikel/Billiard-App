@@ -34,27 +34,6 @@ Welcome to the Billiard App, a comprehensive solution for managing and organizin
 
 - **Backend:**
   - The app's backend service is powered by Firebase, which handles user authentication, data storage, and real-time updates.
-  - The backend uses SQL for structured data storage and management.
-
-## Installation and Usage
-
-1. Clone the repository to your local machine.
-2. Set up the frontend and backend environments according to the provided documentation.
-3. Start the backend server.
-4. Open the app on an Android emulator or physical device and log in using the appropriate credentials for admin or regular user mode.
-
-## Future Enhancements
-
-As the Billiard App evolves, we have planned several enhancements to further improve user experience and streamline management:
-
-- **Real-time Updates:** Implementing real-time updates to reflect table availability changes and waiting list updates instantly.
-- **User Profiles:** Allowing regular users to create profiles, track their reservations, and receive notifications.
-- **Mobile App:** Developing a mobile version of the app to provide on-the-go access and better user engagement.
-- **Integration with Payment:** Adding payment integration for table reservations to streamline the process.
-- **Analytics:** Incorporating analytics features to provide insights into peak hours, popular tables, and user behavior.
-
-## Contact Information
-
-If you have any questions, feedback, or suggestions, please feel free to reach out to us at [your.email@example.com](mailto:your.email@example.com).
+  - The backend uses Json for structured data storage and management.
 
 Thank you for using the Billiard App to enhance the management and user experience at your billiard hall!
