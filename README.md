@@ -29,18 +29,19 @@ Welcome to the Billiard App, a comprehensive solution for managing and organizin
 ## Technologies Used
 
 - **Frontend:**
-  - The app's frontend is built using modern web technologies such as HTML, CSS, and JavaScript.
+  - The app's frontend is built using Java and XML, providing a native Android experience.
   - It ensures an intuitive and user-friendly interface for both admin and regular users.
 
 - **Backend:**
-  - The app's backend is powered by a server-side programming language (e.g., Python, Node.js) and a database system (e.g., SQLite, MySQL) to manage data.
+  - The app's backend service is powered by Firebase, which handles user authentication, data storage, and real-time updates.
+  - The backend uses SQL for structured data storage and management.
 
 ## Installation and Usage
 
 1. Clone the repository to your local machine.
 2. Set up the frontend and backend environments according to the provided documentation.
 3. Start the backend server.
-4. Open the app in a web browser and log in using the appropriate credentials for admin or regular user mode.
+4. Open the app on an Android emulator or physical device and log in using the appropriate credentials for admin or regular user mode.
 
 ## Future Enhancements
 
